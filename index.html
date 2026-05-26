@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS Muay Thai</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <div class="loader-content">
+      <img src="logo.png" alt="NEXUS Muay Thai" class="loader-logo" />
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-text">Carregando...</p>
+    </div>
+  </div>
+
+  <!-- PARTICLES BACKGROUND -->
+  <div id="tsparticles"></div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <img src="logo.png" alt="NEXUS" class="nav-logo" />
+      <ul class="nav-links">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#horarios">Horários</a></li>
+        <li><a href="cadastro.html" class="nav-cta">Cadastrar</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="#hero">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#horarios">Horários</a>
+      <a href="cadastro.html" class="nav-cta">Cadastrar</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-fighter-shadow"></div>
+    <div class="hero-content">
+      <img src="logo.png" alt="NEXUS Muay Thai Logo" class="hero-logo" />
+      <h1 class="hero-title">NEXUS<span class="neon-dot">.</span></h1>
+      <p class="hero-subtitle">MUAY THAI</p>
+      <p class="hero-phrase">Disciplina<span class="dot">.</span> Defesa<span class="dot">.</span> Evolução<span class="dot">.</span></p>
+      <a href="cadastro.html" class="btn-primary">
+        <span>Realizar Cadastro</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE SECTION -->
+  <section id="sobre">
+    <div class="section-header">
+      <span class="section-tag">// SOBRE</span>
+      <h2 class="section-title">Por que <span class="neon">Muay Thai?</span></h2>
+      <p class="section-desc">A arte das oito armas transforma corpo e mente. Descubra os benefícios que vão além do tatame.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="benefit-card">
+        <div class="card-icon">🛡️</div>
+        <h3>Defesa Pessoal</h3>
+        <p>Aprenda a se proteger com técnicas eficazes usadas por lutadores de elite no mundo todo.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="card-icon">💪</div>
+        <h3>Saúde Física</h3>
+        <p>Queime calorias, ganhe massa muscular e melhore seu condicionamento de forma acelerada.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="card-icon">⚡</div>
+        <h3>Disciplina</h3>
+        <p>O treino forja caráter. Cada sessão é uma oportunidade de superar seus próprios limites.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="card-icon">🎯</div>
+        <h3>Foco Mental</h3>
+        <p>Desenvolva concentração e clareza mental que se refletem em todas as áreas da sua vida.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="card-icon">🔥</div>
+        <h3>Confiança</h3>
+        <p>Cada técnica dominada é uma conquista. Saia do tatame mais confiante a cada treino.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="card-icon">🧠</div>
+        <h3>Controle Emocional</h3>
+        <p>O Muay Thai ensina a canalizar emoções, reduzir o estresse e reagir com equilíbrio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORÁRIOS SECTION -->
+  <section id="horarios">
+    <div class="section-header">
+      <span class="section-tag">// HORÁRIOS</span>
+      <h2 class="section-title">Aulas <span class="neon">Semanais</span></h2>
+      <p class="section-desc">Treinos intensos e bem estruturados para todos os níveis. Venha evoluir conosco.</p>
+    </div>
+    <div class="schedule-grid">
+      <div class="schedule-card">
+        <div class="schedule-day-badge">TER</div>
+        <h3 class="schedule-day">Terça-feira</h3>
+        <div class="schedule-time">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="clock-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>17:00 — 18:30</span>
+        </div>
+        <p class="schedule-info">Treino completo · Todos os níveis</p>
+        <div class="schedule-glow"></div>
+      </div>
+      <div class="schedule-card featured">
+        <div class="schedule-day-badge">QUI</div>
+        <h3 class="schedule-day">Quinta-feira</h3>
+        <div class="schedule-time">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="clock-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>17:00 — 18:30</span>
+        </div>
+        <p class="schedule-info">Treino completo · Todos os níveis</p>
+        <div class="schedule-glow"></div>
+      </div>
+      <div class="schedule-card">
+        <div class="schedule-day-badge">SAB</div>
+        <h3 class="schedule-day">Sábado</h3>
+        <div class="schedule-time">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="clock-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>17:00 — 18:30</span>
+        </div>
+        <p class="schedule-info">Treino completo · Todos os níveis</p>
+        <div class="schedule-glow"></div>
+      </div>
+    </div>
+    <div class="schedule-cta">
+      <a href="cadastro.html" class="btn-primary">
+        <span>Garantir Minha Vaga</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="NEXUS Muay Thai" class="footer-logo" />
+        <p class="footer-tagline">Disciplina. Defesa. Evolução.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#horarios">Horários</a>
+        <a href="cadastro.html">Cadastro</a>
+      </div>
+      <p class="footer-copy">© 2026 NEXUS Muay Thai. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT BUTTON -->
+  <a href="#" class="whatsapp-float" id="whatsapp-float" target="_blank" title="Fale conosco">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2.003C6.477 2.003 2 6.48 2 12.003c0 1.77.465 3.432 1.27 4.877L2.003 22l5.248-1.249A9.948 9.948 0 0011.999 22c5.522 0 10-4.477 10-9.997 0-5.523-4.478-10-10.001-10zm0 18.354a8.292 8.292 0 01-4.228-1.155l-.303-.18-3.115.741.78-3.026-.198-.311A8.31 8.31 0 013.646 12c0-4.602 3.751-8.351 8.353-8.351 4.601 0 8.352 3.749 8.352 8.351 0 4.603-3.751 8.357-8.352 8.357z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
