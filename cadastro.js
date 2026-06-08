@@ -11,7 +11,7 @@
    Para desenvolvimento local (file://), o valor abaixo é usado como fallback.
 ─────────────────────────────────────────────────────────────────────────── */
 
-let WHATSAPP_NUMBER = "5599999999999"; // fallback padrão
+let WHATSAPP_NUMBER = "556193662784"; // fallback padrão
 
 async function loadEnv() {
   try {
