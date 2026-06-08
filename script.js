@@ -3,7 +3,7 @@
 /* ── ENV CONFIG ──────────────────────────────────────────── */
 // Simula leitura do .env no frontend.
 // Em produção real (Node.js/servidor), use process.env.WHATSAPP_NUMBER
-const ENV = { WHATSAPP_NUMBER: "5599999999999" };
+const ENV = { WHATSAPP_NUMBER: "556193662784" };
 
 /* ── LOADING SCREEN ──────────────────────────────────────── */
 window.addEventListener("load", () => {
